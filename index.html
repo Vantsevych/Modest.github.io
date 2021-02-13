@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" 
-     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleXS.css">
+    <link rel="stylesheet" href="styleSM.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <!-- xs - mobile ( < 767px ) -->
     <!-- sm - tablet ( > 768 px ) -->
@@ -18,20 +23,50 @@
 
 
     <header class="header">
-        <div class="container">
-            <div class="row hidden-row">
-                <div class="col-xs-12 col-sm-3">Logo</div>
-                <div class="col-xs-12 col-sm-7">Menu</div>
-                <div class="col-xs-hidden col-sm-2">Search</div>
+        <div class="full-container">
+            <div class="container">
+                <div class="row hidden-row">
+                    <div class="col-xs-12 col-sm-3 logo">
+                        <a href="">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 menu">
+                        <a class="menu-a" href="">home</a>
+                        <a class="menu-a" href="">about</a>
+                        <a class="menu-a" href="">work</a>
+                        <a class="menu-a" href="">team</a>
+                        <a class="menu-a" href="">service</a>
+                        <a class="menu-a" href="">featurs</a>
+                        <a class="menu-a" href="">contacts</a>
+
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-xs-hidden col-sm-2 search">Search</div>
+                </div>
             </div>
         </div>
-        <div class="slide">
-            <button></button>
+        <div class="slider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7 text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quaerat repellendus quis, dolorem illum recusandae
+                        harum eius doloremque corporis at...
+                    </div>
+                    <div class="col-sm-5 text"></div>
+                    <div class="col-sm-12 button">
+                        <button class="button">view more</button>
+                        <button class="button">videotour</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    <main class="main">main</main>
-    <footer class="footer">footer</footer>
+        <main class="main">main</main>
+        <footer class="footer">footer</footer>
 
 
-    <script src="app.js"></script>
+        <script src="app.js"></script>
 </body>
+
 </html>

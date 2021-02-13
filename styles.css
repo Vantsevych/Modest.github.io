@@ -1,0 +1,37 @@
+/* 
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 85px;
+    line-height: 45px;
+}
+.menu {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+}
+
+.menu > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a4aead;
+    font-size: 14px;
+}
+
+.menu > a:hover {
+    border: 1px solid #a4aead;
+    border-radius: 5px;
+}
+.menu > a::marker {
+    color: #23b7a4;
+    border: 1px solid #23b7a4;
+}
+
+.search {
+    padding-left: 0;
+    padding-right: 0;
+} */
