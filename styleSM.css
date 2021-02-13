@@ -90,5 +90,10 @@
     .slider > .container {
         height: 100%;
     }
+
+    .row-slider {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
 }
 
