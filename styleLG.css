@@ -4,31 +4,15 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 1200px) {
 
-@media (min-width:768px) {
+    .container {
+        max-width: 1170px;
+    }
+
     .ful-container {
         width: 100%;
         background-color: #1d2126;
-    }
-    .container {
-        max-width: 720px;
-    }
-    .col-sm-1 {
-        flex: 0 0 8.33331%;
-        max-width: 8.33331%;
-    }
-    .col-sm-2 {
-    flex: 0 0 16.66667%;
-    min-width: 16.66667%;
-    }
-    .col-sm-3 {
-    flex: 0 0 24.99999%;
-    min-width: 24.99999%;
-    }
-    .col-sm-6 {
-    flex: 0 0 49.99986%;
-    max-width: 49.999861%;
-    justify-content: space-between;
     }
 
     .hidden-row {        
@@ -158,28 +142,29 @@
         flex-wrap: wrap;
     }
 
-    .modest-block {
+    .modest-block, .meet-block {
         height: 35px;
         line-height: 35px;
-        border-left: 10px solid #abadaf;
-        padding-left: 15px;
+        border-left: 10px solid #c8cdd0;
+        margin-left: 15px;
         margin-bottom: 60px;
     }
 
-    .modest-h1 {
+    .modest-h1, .meet-h1{
         font-size: 35px;
-        font-weight: 400;
+        font-weight: 700;
         text-transform: uppercase;
+        color: #292f36;
     }
     .modest-text {
         margin-bottom: 40px;
-        line-height: 1.3;
+        line-height: 1.5;
     }
     .modest-net > ul > li.box {
         width: 60px;
         height: 60px;
         margin-right: 1px;
-        background-color: #abadaf;
+        background-color: #c8cdd0;
     }
     .modest-ul {
         display: inline-flex;
@@ -230,7 +215,7 @@
         flex-wrap: wrap;
     }
 
-    .row01-box, .row02-box, .row03-box {
+    .box01, .box02, .box03 {
         width: 50px;
         height: 50px;
         background-color: #23b7a4;
@@ -241,7 +226,43 @@
 
     .row01-h3, .row02-h3, .row03-h3 {
         text-transform: uppercase;
+        margin-bottom: 15px;}
+
+    .row01-info, .row02-info, .row03-info {
+        margin-bottom: 35px;
+        line-height: 1.3;
     }
+
+
+
+
+
+
+    .row-meet {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .meet-block {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .name {
+        background-color: #e1e6ea;
+        height: 75px;
+        margin-top: -3px;
+        padding: 14px 20px;
+        line-height: 1.4; 
+        color: #abadaf;     
+    }
+
+    .name > h3 {
+        text-transform: uppercase;
+        color: black;
+    }
+
+    
 
 }
 
