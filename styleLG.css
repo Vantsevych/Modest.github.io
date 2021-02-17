@@ -86,6 +86,7 @@
         width: 100%;
         height: 665px;
         background-image: url(img/img\ \(2\).png);
+        background-size: cover;
     }
 
     .slider > .container {
@@ -143,7 +144,7 @@
         flex-wrap: wrap;
     }
 
-    .modest-block, .meet-block, .lovely-block {
+    .modest-block, .meet-block, .lovely-block, .what-block, .features-block {
         height: 35px;
         line-height: 35px;
         border-left: 10px solid #c8cdd0;
@@ -151,7 +152,7 @@
         margin-bottom: 60px;
     }
 
-    .modest-h1, .meet-h1, .lovely-h1{
+    .modest-h1, .meet-h1, .lovely-h1, .what-h1, .features-h1{
         font-size: 35px;
         font-weight: 700;
         text-transform: uppercase;
@@ -264,6 +265,55 @@
         color: black;
     }
 
+    .Bromley, .Torres, .Gillette, .Reed {
+        position: relative;
+    }
+
+    .Bromley-opacity, .Torres-opacity, .Gillette-opacity, .Reed-opacity {
+        display: none;
+    }
+
+    .Bromley:hover .Bromley-opacity {
+        display: block;
+    }
+
+    .Torres:hover .Torres-opacity{
+        display: block;
+    }
+
+    .Gillette:hover .Gillette-opacity{
+        display: block;
+    }
+
+    .Reed:hover .Reed-opacity{
+        display: block;
+    }
+
+    .img-opacity {
+        position: absolute;
+        width: 263px;
+        height: 300px;
+        background-color: rgba(250, 248, 248, 0.5);
+        top: 0;
+    }
+
+    .name-opacity {
+        position: absolute;
+        background-color: #3a454d;
+        width: 263px;
+        height: 75px;
+        margin-top: -3px;
+        padding: 14px 20px;
+        line-height: 1.4; 
+        color: white; 
+        top: 303px;
+    }
+
+    .name-opacity > h3 {
+        text-transform: uppercase;
+    }
+
+
 
 
 
@@ -332,7 +382,6 @@
     }
 
     .gray {
-        display: ;
         position: absolute;
         width: 360px;
         height: 62px;
@@ -360,7 +409,7 @@
     }
 
     .show-me-more {
-        margin: 80px 0;
+        margin: 60px 0;
         width: 148px;
         height: 40px;
         border: 1px solid white;
@@ -373,7 +422,70 @@
         background-color: rgba(250, 249, 249, 0.2);
     }
 
+
+
+
+    .what-we-do {
+        height: 900px;
+        width: 100%;
+        padding-top: 80px;
+        margin-bottom: 160px;
+    }
+
+    .row-what, .what-ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us {
+        text-align: center;
+        color: #9c9ea1;
+        line-height: 1.7;
+        margin-top: 90px;
+    }
+
+    .what-h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        color: black;
+    }
+
+
+
+
+    .features {
+        width: 100%;
+        height: 735px;
+        background-color: #3a454d;
+        padding-top: 85px;
+    }
+
+    .row-features, .features-ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
     
+    .features-h1 {
+        color: white;
+        margin-left: 15px;        
+    }
+
+    .features-li {
+        text-align: left;
+        line-height: 1.6;
+        font-size: 14px;
+    }
+
+    .uppercase {
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-top: 55px;
+        margin-bottom: 30px;
+        font-weight: 700;
+
+    }
 
 }
 
